@@ -145,3 +145,4 @@ const { developmentChains } = require("../../helper-hardhat-config")
               })
           })
       })
+// These are the sample contract creating things we are learning right now?

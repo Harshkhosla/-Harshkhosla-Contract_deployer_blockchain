@@ -51,6 +51,7 @@ const { developmentChains } = require("../../helper-hardhat-config")
                   assert.equal(response, deployer)
               })
           })
+
           describe("withdraw", function () {
               beforeEach(async () => {
                   await fundMe.fund({ value: sendValue })
@@ -145,4 +146,3 @@ const { developmentChains } = require("../../helper-hardhat-config")
               })
           })
       })
-// These are the sample contract creating things we are learning right now?
